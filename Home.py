@@ -18,7 +18,7 @@ mainLabel.pack()
 
 #Scan button
 scanbtn = Button(window, width=8,height= 2, text = 'Scan')
-scanbtn.config(command=Scanner.start_scanner)
+scanbtn.config(command=Scanner.scanner_window)
 scanbtn.config(font=('Arial', 20, 'bold'))
 scanbtn.config(activebackground='red')
 
